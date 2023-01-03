@@ -15,7 +15,6 @@ The first step was to read text file that had the iris dataset and convert it in
 
 # Task 1:
 The correlation matrix of the data was computed through Pearson’s correlation coefficient. We did this by taking the transpose of the iris dataset’s data frame and using built-in function to calculate the Pearson’s correlation. The mean of each column was calculated by using the built-in, “.mean()” function. Image of the discretized matrix was produced using matplotlib.
- 
 To produce a color-coded image, the instruction in the task were followed, and to give the green shade to the pixels in similarity matrix, OpenCV was used to set the reds and blues to zero which left behind the green shade. 
  
 # Task 2:
